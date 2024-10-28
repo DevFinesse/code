@@ -13,6 +13,7 @@ namespace api.Controllers
     public class StockController : ControllerBase
     {
         private readonly ApplicatioDBContext _context;
+        //Constructor
         public StockController(ApplicatioDBContext context)
         {
             _context = context;
